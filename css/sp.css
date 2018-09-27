@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* スマートフォン用CSS */
+
+.hidden-sp {
+	display:none !important;
+}
+.hidden-tb {
+	display: inherit !important;
+}
+.hidden-pc {
+	display: inherit !important;
+}
+
+
+.mailform input[type="text"],
+.mailform select,
+.mailform option,
+.mailform textarea {
+	font-size:18px;
+}
+.mailform input:focus,
+.mailform textarea:focus,
+.mailform select:focus,
+.mailform textarea:focus {
+	border:1px solid #2A92C8 !important;
+	background-color:#fff;
+	outline:none;
+}
+select {
+	background:url(../img/arrow.png) no-repeat right center;
+	background-size:22px 32px;
+	padding-right:28px !important;
+	cursor: pointer;
+}
+
+.mailform {
+    padding:0 3.125%;
+}
+.mailform h2 {
+    font-size:6vw;
+}
+.mailform .inner {
+    padding:5% 5% 10%;
+}
+.mailform dt {
+    font-size:4vw;
+}
+.mailform .caution,
+.mailform .ex,
+.mailform label {
+    font-size:3.6vw;
+}
+.mailform .submit_btn {
+    width:60%;
+    height:0;
+    padding-top:10.668%;
+    background: url(../img/btn02_sp.png) left top no-repeat;
+    background-size: cover;
+}
+
+.pryvacy_div {
+    font-size:3vw;
+}
+.pryvacy_div_font {
+    padding:1em 0 2em 1em;
+}
+.pryvacy_div_flex div:last-of-type .pryvacy_div_font {
+    padding-bottom: 1em;
+}
+
