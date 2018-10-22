@@ -92,3 +92,12 @@ input, select {
 	font-feature-settings: 'palt';
 }
 
+.clearfix:after,
+div:after,
+ul:after,
+dd:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+

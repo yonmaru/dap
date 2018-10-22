@@ -131,7 +131,7 @@ $mailSignature = <<< FOOTER
 〒107-0062
 東京都港区南青山1-1-1 新青山ビル東館 3F
 TEL：03-6271-4804
-E-mail：info@darwin-ap.co.jp
+E-mail：info-am@darwin-ap.co.jp
 ------------------------------------------------------------
 
 FOOTER;

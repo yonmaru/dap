@@ -126,3 +126,21 @@ select {
 .pryvacy_div_flex div:last-of-type .pryvacy_div_font {
     padding-bottom: 1em;
 }
+
+
+
+/* add 20181020 */
+.mailform .birthday div {
+    float:left;
+    width:33%;
+}
+.mailform .birthday div select {
+    width:80%;
+}
+.mailform .timezone div {
+    float:left;
+    width:33%;
+}
+.mailform .timezone div select {
+    width:98%;
+}

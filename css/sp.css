@@ -68,3 +68,19 @@ select {
     padding-bottom: 1em;
 }
 
+
+/* add 20181020 */
+.mailform .birthday div {
+    float:left;
+    width:33%;
+}
+.mailform .birthday div select {
+    width:70%;
+}
+.mailform .timezone div {
+    float:none;
+    width:100%;
+}
+.mailform .timezone div select {
+    width:100%;
+}
